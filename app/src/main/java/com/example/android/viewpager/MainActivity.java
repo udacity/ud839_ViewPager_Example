@@ -16,8 +16,9 @@
 package com.example.android.viewpager;
 
 import android.os.Bundle;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager.widget.ViewPager;
 
 /**
  * Displays a {@link ViewPager} where each page shows a different day of the week.
