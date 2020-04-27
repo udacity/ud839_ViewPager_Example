@@ -11,6 +11,8 @@ Pre-requisites
 - Android Build Tools v29.0.3
 - AndroidX Appcompat Repository v1.1.0
 
+update courtesy of @msmilkshake
+
 Getting Started
 ---------------
 
