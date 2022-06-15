@@ -15,9 +15,12 @@
  */
 package com.example.android.viewpager;
 
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentPagerAdapter;
+// import android.support.v4.app.Fragment;
+// import android.support.v4.app.FragmentManager;
+// import android.support.v4.app.FragmentPagerAdapter;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentPagerAdapter;
 
 /**
  * Provides the appropriate {@link Fragment} for a view pager.
@@ -25,10 +28,9 @@ import android.support.v4.app.FragmentPagerAdapter;
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     public SimpleFragmentPagerAdapter(FragmentManager fm) {
-        super(fm);
+        super(fm, FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
     }
 
-    @Override
     public Fragment getItem(int position) {
         if (position == 0) {
             return new MondayFragment();
