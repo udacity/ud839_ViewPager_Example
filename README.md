@@ -1,3 +1,5 @@
+## ud839 Android Basics: Multiscreen Apps is now deprecated.
+
 ViewPager Sample App
 ===================================
 
